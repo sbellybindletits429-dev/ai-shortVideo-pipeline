@@ -1,4 +1,4 @@
-AI Episode Studio – Source Code⁠name: PR Comment
+PR Comment
 
 on:
   pull_request:
@@ -24,7 +24,7 @@ jobs:
               body: "Thanks for the pull request! A review is on the way."
             });name: Pull request workflow
 
-on:
+
   pull_request:
     types: [opened, synchronize, reopened]
 
